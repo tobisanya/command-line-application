@@ -1,0 +1,32 @@
+{
+  "name": "command-line-application",
+  "version": "1.0.0",
+  "description": "Hello world commmand line application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobisanya/command-line-application.git"
+  },
+  "bin": {
+    "democli": "index.js"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "application"
+  ],
+  "author": "Sanya Tobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobisanya/command-line-application/issues"
+  },
+  "homepage": "https://github.com/tobisanya/command-line-application#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "inquirer": "^1.0.2"
+  }
+}
